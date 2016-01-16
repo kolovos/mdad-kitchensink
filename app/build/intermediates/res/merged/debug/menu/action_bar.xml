@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item
+        android:id="@+id/action_start"
+        android:showAsAction="always"
+        android:icon="@drawable/av_play"
+        android:title="Start"/>
+    
+    <item
+        android:id="@+id/action_pause"
+        android:showAsAction="always"
+        android:icon="@drawable/av_pause"
+        android:title="Pause"/>
+    
+    <item
+        android:id="@+id/action_stop"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/av_stop"
+        android:title="Stop"/>
+        
+    <item
+        android:id="@+id/action_shuffle"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/av_shuffle"
+        android:title="Shuffle"/>
+    	    
+</menu>

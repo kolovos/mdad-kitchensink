@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kitchensink"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".intents.ViewMessageActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".intents.ComposeMessageActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".broadcastreceivers.OutgoingCallEmulatingActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".intents.ContactsActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".intents.ComposeMessageWithRealRecipientActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".asynctasks.DownloadActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".intents.BookmarksActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".notifications.ToastsActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".notifications.NotificationsActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".intents.TwitterAccountDisplayActivity"
+            android:exported="false"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" >
+                </action>
+
+                <category android:name="android.intent.category.DEFAULT" >
+                </category>
+                <category android:name="android.intent.category.BROWSABLE" >
+                </category>
+
+                <data
+                    android:host="www.twitter.com"
+                    android:scheme="http" >
+                </data>
+            </intent-filter>
+        </activity>
+
+        <service android:name=".services.TimerService" >
+        </service>
+        <service android:name=".musicplayer.aidl.AidlMusicPlayerService" >
+            <intent-filter>
+                <action android:name="com.kitchensink.musicplayer.aidl.AidlMusicPlayerService" />
+            </intent-filter>
+        </service>
+        <service android:name=".musicplayer.started.StartedMusicPlayerService" >
+            <intent-filter>
+                <action android:name="com.kitchensink.musicplayer.StartedMusicPlayerService" />
+            </intent-filter>
+        </service>
+        <service android:name=".musicplayer.bound.BoundMusicPlayerService" >
+            <intent-filter>
+                <action android:name="com.kitchensink.musicplayer.bound.BoundMusicPlayerService" />
+            </intent-filter>
+        </service>
+        <service android:name=".musicplayer.messenger.MessengerMusicPlayerService" >
+            <intent-filter>
+                <action android:name="com.kitchensink.musicplayer.messenger.MessengerMusicPlayerService" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".services.TimerActivity"
+            android:label="@string/app_name" >
+        </activity>
+
+        <service android:name=".services.StopwatchService" >
+        </service>
+        <service android:name=".messenger.MessengerService" >
+        </service>
+        <service android:name=".aidl.CalculatorService" >
+        </service>
+
+        <activity
+            android:name=".services.StopwatchActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".newslist.NewsListActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".i18n.MultilingualActivity"
+            android:label="@string/title_activity_mutlilingual" >
+        </activity>
+        <activity
+            android:name=".multidevice.MultideviceActivity"
+            android:label="@string/title_activity_mutidevice" >
+        </activity>
+        <activity
+            android:name=".layouts.LayoutsActivity"
+            android:label="@string/title_activity_layouts" >
+        </activity>
+        <activity
+            android:name=".listview.ListViewActivity"
+            android:label="@string/title_activity_listview" >
+        </activity>
+        <activity
+            android:name=".listview.ContactListViewActivity"
+            android:label="@string/title_activity_contact_list_view" >
+        </activity>
+        <activity
+            android:name=".gridview.ContactGridViewActivity"
+            android:label="@string/title_activity_contact_grid_view" >
+        </activity>
+        <activity
+            android:name=".wishlist.WishlistActivity"
+            android:label="@string/title_activity_wishlist" >
+        </activity>
+        <activity
+            android:name=".scrapbook.ScrapbookInFileActivity"
+            android:label="@string/title_activity_scrapbook" >
+        </activity>
+        <activity
+            android:name=".scrapbook.ScrapbookInPreferencesActivity"
+            android:label="@string/title_activity_scrapbook" >
+        </activity>
+        <activity
+            android:name=".contentproviders.PhoneListViewActivity"
+            android:label="@string/title_activity_contact_list" >
+        </activity>
+        <activity
+            android:name=".sensors.SensorsActivity"
+            android:label="@string/title_activity_environment_sensors" >
+        </activity>
+        <activity
+            android:name=".network.NetworkActivity"
+            android:label="@string/title_activity_network" >
+        </activity>
+        <activity
+            android:name=".musicplayer.started.StartedMusicPlayerActivity"
+            android:label="@string/title_activity_music_player" >
+        </activity>
+        <activity
+            android:name=".handler.HandlerActivity"
+            android:label="@string/title_activity_handler" >
+        </activity>
+        <activity
+            android:name=".messenger.MessengerActivity"
+            android:label="@string/title_activity_messenger" >
+        </activity>
+        <activity
+            android:name=".aidl.CalculatorAidlServiceActivity"
+            android:label="@string/title_activity_aidl_service" >
+        </activity>
+        <activity
+            android:name=".actionbar.ActionBarActivity"
+            android:label="@string/title_activity_action_bar" >
+        </activity>
+        <activity
+            android:name=".contextmenu.ContextMenuActivity"
+            android:label="@string/title_activity_context_menu" >
+        </activity>
+        <activity
+            android:name=".musicplayer.bound.BoundMusicPlayerActivity"
+            android:label="@string/title_activity_bound_music_player" >
+        </activity>
+        <activity
+            android:name=".musicplayer.noservice.NoServiceMusicPlayerActivity"
+            android:label="No Service" >
+        </activity>
+        <activity
+            android:name=".musicplayer.AbstractMusicPlayerActivity"
+            android:label="@string/title_activity_abstract_music_player" >
+        </activity>
+        <activity
+            android:name=".musicplayer.bound.ImplicitBoundMusicPlayerActivity"
+            android:label="@string/title_activity_abstract_music_player" >
+        </activity>
+        <activity
+            android:name=".musicplayer.aidl.AidlMusicPlayerActivity"
+            android:label="@string/title_activity_abstract_music_player" >
+        </activity>
+        <activity
+            android:name=".musicplayer.messenger.MessengerMusicPlayerActivity"
+            android:label="@string/title_activity_abstract_music_player" >
+        </activity>
+        <activity
+            android:name=".timertask.TimerTaskActivity"
+            android:label="@string/title_activity_timer_task" >
+        </activity>
+        <activity
+            android:name=".broadcastreceivers.IncomingSmsLoggerActivity"
+            android:label="@string/title_activity_incoming_sms_logger" >
+        </activity>
+        <activity
+            android:name=".broadcastreceivers.StickyBroadcastActivity"
+            android:label="@string/title_activity_sticky_broadcast" >
+        </activity>
+        <activity
+            android:name=".location.LocationListenerActivity"
+            android:label="@string/title_activity_location_listener" >
+        </activity>
+        <activity
+            android:name=".location.GpsLocationListenerActivity"
+            android:label="@string/title_activity_location_listener" >
+        </activity>
+        <activity
+            android:name=".mondial.CountriesActivity"
+            android:label="@string/title_activity_countries" >
+        </activity>
+        <activity
+            android:name=".webview.WebViewActivity"
+            android:label="@string/title_activity_web_view" >
+        </activity>
+        <activity
+            android:name=".network.AdcActivity"
+            android:label="@string/title_activity_adc" >
+        </activity>
+        <activity
+            android:name=".calculator.CalculatorActivity"
+            android:label="@string/title_activity_calculator" >
+        </activity>
+        <activity
+            android:name=".mondial.fragments.CountryListActivity"
+            android:label="@string/title_country_list" >
+        </activity>
+        <activity
+            android:name=".mondial.fragments.CountryDetailActivity"
+            android:label="@string/title_country_detail"
+            android:parentActivityName=".mondial.fragments.CountryListActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".CountryListActivity" />
+        </activity>
+        <activity
+            android:name=".viewpager.ViewPagerActivity"
+            android:label="@string/title_activity_page_viewer" >
+        </activity>
+        <activity
+            android:name=".gestures.drawing.AdvancedDrawingActivity"
+            android:label="@string/title_activity_drawing" >
+        </activity>
+        <activity
+            android:name=".gestures.drawing.DrawingActivity"
+            android:label="@string/title_activity_drawing" >
+        </activity>
+        <activity
+            android:name=".gestures.GestureDetectorActivity"
+            android:label="@string/title_activity_gesture_detector" >
+        </activity>
+        <activity
+            android:name=".gestures.ScaleDetectorActivity"
+            android:label="@string/title_activity_scale_detector" >
+        </activity>
+        <activity
+            android:name=".sensors.LightSensorActivity"
+            android:label="LightSensorActivity" >
+        </activity>
+        <activity
+            android:name=".gestures.GesturesListActivity"
+            android:label="GesturesListActivity" >
+        </activity>
+        <activity
+            android:name="com.kitchensink.ksoap2.KSOAP2Activity"
+            android:label="@string/title_activity_ksoap2" >
+        </activity>
+    </application>
+
+</manifest>

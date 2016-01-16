@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/res/merged/debug/layout-large-v4/activity_multidevice.xml",
+        "source": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/res/layout-large/activity_multidevice.xml"
+    },
+    {
+        "merged": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/res/merged/debug/layout-large-v4/activity_country_list.xml",
+        "source": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/res/layout-large/activity_country_list.xml"
+    }
+]

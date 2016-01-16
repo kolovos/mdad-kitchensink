@@ -1,0 +1,13 @@
+package com.kitchensink.wishlist;
+
+@config(	
+	name="WishlistDbOpenHelperBase", 
+	customPackage="",
+	databaseName="wishlist.db", 
+	databaseVersion="2"
+)
+
+class Wish {
+	attr String title;
+	attr float price;
+}

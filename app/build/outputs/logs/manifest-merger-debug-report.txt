@@ -1,0 +1,525 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:2:1-315:12
+	package
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:3:5-30
+		INJECTED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:21.0.3] /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/AndroidManifest.xml:15:5-42
+	android:targetSdkVersion
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:9:9-38
+		INJECTED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:8:9-35
+		INJECTED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:11:22-64
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:12:5-72
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:12:22-69
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:13:5-73
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:13:22-70
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:14:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:15:5-76
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:15:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:16:5-76
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:16:22-73
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:17:5-70
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:17:22-67
+uses-permission#android.permission.READ_SMS
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:18:5-67
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:18:22-64
+uses-permission#android.permission.BROADCAST_STICKY
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:19:5-75
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:19:22-72
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:20:5-81
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:20:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:21:5-79
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:21:22-76
+uses-permission#android.permission.ACCESS_MOCK_LOCATION
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:22:22-76
+application
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:24:5-313:19
+MERGED from [com.android.support:support-v4:21.0.3] /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/AndroidManifest.xml:16:5-19
+	android:label
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:27:9-41
+	android:allowBackup
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:25:9-35
+	android:icon
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:26:9-45
+	android:theme
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:28:9-40
+activity#com.kitchensink.intents.ViewMessageActivity
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:29:9-32:20
+	android:label
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:31:13-45
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:30:13-56
+activity#com.kitchensink.MainActivity
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:33:9-41:20
+	android:label
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:35:13-45
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:34:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:36:13-40:29
+action#android.intent.action.MAIN
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:37:17-69
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:37:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:39:17-77
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:39:27-74
+activity#com.kitchensink.intents.ComposeMessageActivity
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:42:9-45:20
+	android:label
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:44:13-45
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:43:13-59
+activity#com.kitchensink.broadcastreceivers.OutgoingCallEmulatingActivity
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:46:9-49:20
+	android:label
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:48:13-45
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:47:13-77
+activity#com.kitchensink.intents.ContactsActivity
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:50:9-53:20
+	android:label
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:52:13-45
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:51:13-53
+activity#com.kitchensink.intents.ComposeMessageWithRealRecipientActivity
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:54:9-57:20
+	android:label
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:56:13-45
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:55:13-76
+activity#com.kitchensink.asynctasks.DownloadActivity
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:58:9-61:20
+	android:label
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:60:13-45
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:59:13-56
+activity#com.kitchensink.intents.BookmarksActivity
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:62:9-65:20
+	android:label
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:64:13-45
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:63:13-54
+activity#com.kitchensink.notifications.ToastsActivity
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:66:9-69:20
+	android:label
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:68:13-45
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:67:13-57
+activity#com.kitchensink.notifications.NotificationsActivity
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:70:9-73:20
+	android:label
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:72:13-45
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:71:13-64
+activity#com.kitchensink.intents.TwitterAccountDisplayActivity
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:74:9-92:20
+	android:label
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:77:13-45
+	android:exported
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:76:13-37
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:75:13-66
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:78:13-91:29
+action#android.intent.action.VIEW
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:79:17-80:26
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:79:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:82:17-83:28
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:82:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:84:17-85:28
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:84:27-75
+data
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:87:17-90:24
+	android:host
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:88:21-51
+	android:scheme
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:89:21-42
+service#com.kitchensink.services.TimerService
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:94:9-95:19
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:94:18-55
+service#com.kitchensink.musicplayer.aidl.AidlMusicPlayerService
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:96:9-100:19
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:96:18-73
+intent-filter#com.kitchensink.musicplayer.aidl.AidlMusicPlayerService
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:97:13-99:29
+action#com.kitchensink.musicplayer.aidl.AidlMusicPlayerService
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:98:17-98
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:98:25-95
+service#com.kitchensink.musicplayer.started.StartedMusicPlayerService
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:101:9-105:19
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:101:18-79
+intent-filter#com.kitchensink.musicplayer.StartedMusicPlayerService
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:102:13-104:29
+action#com.kitchensink.musicplayer.StartedMusicPlayerService
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:103:17-96
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:103:25-93
+service#com.kitchensink.musicplayer.bound.BoundMusicPlayerService
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:106:9-110:19
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:106:18-75
+intent-filter#com.kitchensink.musicplayer.bound.BoundMusicPlayerService
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:107:13-109:29
+action#com.kitchensink.musicplayer.bound.BoundMusicPlayerService
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:108:17-100
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:108:25-97
+service#com.kitchensink.musicplayer.messenger.MessengerMusicPlayerService
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:111:9-115:19
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:111:18-83
+intent-filter#com.kitchensink.musicplayer.messenger.MessengerMusicPlayerService
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:112:13-114:29
+action#com.kitchensink.musicplayer.messenger.MessengerMusicPlayerService
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:113:17-108
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:113:25-105
+activity#com.kitchensink.services.TimerActivity
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:117:9-120:20
+	android:label
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:119:13-45
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:118:13-51
+service#com.kitchensink.services.StopwatchService
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:122:9-123:19
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:122:18-59
+service#com.kitchensink.messenger.MessengerService
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:124:9-125:19
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:124:18-60
+service#com.kitchensink.aidl.CalculatorService
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:126:9-127:19
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:126:18-56
+activity#com.kitchensink.services.StopwatchActivity
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:129:9-132:20
+	android:label
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:131:13-45
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:130:13-55
+activity#com.kitchensink.newslist.NewsListActivity
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:133:9-136:20
+	android:label
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:135:13-45
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:134:13-54
+activity#com.kitchensink.i18n.MultilingualActivity
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:137:9-140:20
+	android:label
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:139:13-64
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:138:13-54
+activity#com.kitchensink.multidevice.MultideviceActivity
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:141:9-144:20
+	android:label
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:143:13-62
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:142:13-60
+activity#com.kitchensink.layouts.LayoutsActivity
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:145:9-148:20
+	android:label
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:147:13-59
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:146:13-52
+activity#com.kitchensink.listview.ListViewActivity
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:149:9-152:20
+	android:label
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:151:13-60
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:150:13-54
+activity#com.kitchensink.listview.ContactListViewActivity
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:153:9-156:20
+	android:label
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:155:13-69
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:154:13-61
+activity#com.kitchensink.gridview.ContactGridViewActivity
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:157:9-160:20
+	android:label
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:159:13-69
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:158:13-61
+activity#com.kitchensink.wishlist.WishlistActivity
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:161:9-164:20
+	android:label
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:163:13-60
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:162:13-54
+activity#com.kitchensink.scrapbook.ScrapbookInFileActivity
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:165:9-168:20
+	android:label
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:167:13-61
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:166:13-62
+activity#com.kitchensink.scrapbook.ScrapbookInPreferencesActivity
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:169:9-172:20
+	android:label
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:171:13-61
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:170:13-69
+activity#com.kitchensink.contentproviders.PhoneListViewActivity
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:173:9-176:20
+	android:label
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:175:13-64
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:174:13-67
+activity#com.kitchensink.sensors.SensorsActivity
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:177:9-180:20
+	android:label
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:179:13-71
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:178:13-52
+activity#com.kitchensink.network.NetworkActivity
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:181:9-184:20
+	android:label
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:183:13-59
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:182:13-52
+activity#com.kitchensink.musicplayer.started.StartedMusicPlayerActivity
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:185:9-188:20
+	android:label
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:187:13-64
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:186:13-75
+activity#com.kitchensink.handler.HandlerActivity
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:189:9-192:20
+	android:label
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:191:13-59
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:190:13-52
+activity#com.kitchensink.messenger.MessengerActivity
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:193:9-196:20
+	android:label
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:195:13-61
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:194:13-56
+activity#com.kitchensink.aidl.CalculatorAidlServiceActivity
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:197:9-200:20
+	android:label
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:199:13-64
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:198:13-63
+activity#com.kitchensink.actionbar.ActionBarActivity
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:201:9-204:20
+	android:label
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:203:13-62
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:202:13-56
+activity#com.kitchensink.contextmenu.ContextMenuActivity
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:205:9-208:20
+	android:label
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:207:13-64
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:206:13-60
+activity#com.kitchensink.musicplayer.bound.BoundMusicPlayerActivity
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:209:9-212:20
+	android:label
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:211:13-70
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:210:13-71
+activity#com.kitchensink.musicplayer.noservice.NoServiceMusicPlayerActivity
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:213:9-216:20
+	android:label
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:215:13-39
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:214:13-79
+activity#com.kitchensink.musicplayer.AbstractMusicPlayerActivity
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:217:9-220:20
+	android:label
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:219:13-73
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:218:13-68
+activity#com.kitchensink.musicplayer.bound.ImplicitBoundMusicPlayerActivity
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:221:9-224:20
+	android:label
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:223:13-73
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:222:13-79
+activity#com.kitchensink.musicplayer.aidl.AidlMusicPlayerActivity
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:225:9-228:20
+	android:label
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:227:13-73
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:226:13-69
+activity#com.kitchensink.musicplayer.messenger.MessengerMusicPlayerActivity
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:229:9-232:20
+	android:label
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:231:13-73
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:230:13-79
+activity#com.kitchensink.timertask.TimerTaskActivity
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:233:9-236:20
+	android:label
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:235:13-62
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:234:13-56
+activity#com.kitchensink.broadcastreceivers.IncomingSmsLoggerActivity
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:237:9-240:20
+	android:label
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:239:13-71
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:238:13-73
+activity#com.kitchensink.broadcastreceivers.StickyBroadcastActivity
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:241:9-244:20
+	android:label
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:243:13-68
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:242:13-71
+activity#com.kitchensink.location.LocationListenerActivity
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:245:9-248:20
+	android:label
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:247:13-69
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:246:13-62
+activity#com.kitchensink.location.GpsLocationListenerActivity
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:249:9-252:20
+	android:label
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:251:13-69
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:250:13-65
+activity#com.kitchensink.mondial.CountriesActivity
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:253:9-256:20
+	android:label
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:255:13-61
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:254:13-54
+activity#com.kitchensink.webview.WebViewActivity
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:257:9-260:20
+	android:label
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:259:13-60
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:258:13-52
+activity#com.kitchensink.network.AdcActivity
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:261:9-264:20
+	android:label
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:263:13-55
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:262:13-48
+activity#com.kitchensink.calculator.CalculatorActivity
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:265:9-268:20
+	android:label
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:267:13-62
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:266:13-58
+activity#com.kitchensink.mondial.fragments.CountryListActivity
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:269:9-272:20
+	android:label
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:271:13-55
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:270:13-66
+activity#com.kitchensink.mondial.fragments.CountryDetailActivity
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:273:9-280:20
+	android:label
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:275:13-57
+	android:parentActivityName
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:276:13-80
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:274:13-68
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:277:13-279:56
+	android:value
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:279:17-53
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:278:17-63
+activity#com.kitchensink.viewpager.ViewPagerActivity
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:281:9-284:20
+	android:label
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:283:13-63
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:282:13-56
+activity#com.kitchensink.gestures.drawing.AdvancedDrawingActivity
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:285:9-288:20
+	android:label
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:287:13-59
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:286:13-69
+activity#com.kitchensink.gestures.drawing.DrawingActivity
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:289:9-292:20
+	android:label
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:291:13-59
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:290:13-61
+activity#com.kitchensink.gestures.GestureDetectorActivity
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:293:9-296:20
+	android:label
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:295:13-68
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:294:13-61
+activity#com.kitchensink.gestures.ScaleDetectorActivity
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:297:9-300:20
+	android:label
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:299:13-66
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:298:13-59
+activity#com.kitchensink.sensors.LightSensorActivity
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:301:9-304:20
+	android:label
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:303:13-48
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:302:13-56
+activity#com.kitchensink.gestures.GesturesListActivity
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:305:9-308:20
+	android:label
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:307:13-49
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:306:13-58
+activity#com.kitchensink.ksoap2.KSOAP2Activity
+ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:309:9-312:20
+	android:label
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:311:13-58
+	android:name
+		ADDED from /Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/AndroidManifest.xml:310:13-65

@@ -1,0 +1,218 @@
+[
+    {
+        "merged": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/res/merged/debug/layout/activity_handler.xml",
+        "source": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/res/layout/activity_handler.xml"
+    },
+    {
+        "merged": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/res/merged/debug/layout/activity_context_menu.xml",
+        "source": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/res/layout/activity_context_menu.xml"
+    },
+    {
+        "merged": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/res/merged/debug/layout/activity_gesture_detector.xml",
+        "source": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/res/layout/activity_gesture_detector.xml"
+    },
+    {
+        "merged": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/res/merged/debug/layout/activity_stopwatch.xml",
+        "source": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/res/layout/activity_stopwatch.xml"
+    },
+    {
+        "merged": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/res/merged/debug/layout/activity_gestures_list.xml",
+        "source": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/res/layout/activity_gestures_list.xml"
+    },
+    {
+        "merged": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/res/merged/debug/layout/activity_outgoing_call_emulating.xml",
+        "source": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/res/layout/activity_outgoing_call_emulating.xml"
+    },
+    {
+        "merged": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/res/merged/debug/layout/activity_sensors.xml",
+        "source": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/res/layout/activity_sensors.xml"
+    },
+    {
+        "merged": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/res/merged/debug/layout/activity_timer_task.xml",
+        "source": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/res/layout/activity_timer_task.xml"
+    },
+    {
+        "merged": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/res/merged/debug/layout/activity_multilingual.xml",
+        "source": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/res/layout/activity_multilingual.xml"
+    },
+    {
+        "merged": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/res/merged/debug/layout/activity_web_view.xml",
+        "source": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/res/layout/activity_web_view.xml"
+    },
+    {
+        "merged": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/res/merged/debug/layout/activity_country_list.xml",
+        "source": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/res/layout/activity_country_list.xml"
+    },
+    {
+        "merged": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/res/merged/debug/layout/activity_ksoap2.xml",
+        "source": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/res/layout/activity_ksoap2.xml"
+    },
+    {
+        "merged": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/res/merged/debug/layout/activity_toasts.xml",
+        "source": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/res/layout/activity_toasts.xml"
+    },
+    {
+        "merged": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/res/merged/debug/layout/activity_layouts_linear_horizontal.xml",
+        "source": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/res/layout/activity_layouts_linear_horizontal.xml"
+    },
+    {
+        "merged": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/res/merged/debug/layout/activity_phonelist.xml",
+        "source": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/res/layout/activity_phonelist.xml"
+    },
+    {
+        "merged": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/res/merged/debug/layout/activity_countries.xml",
+        "source": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/res/layout/activity_countries.xml"
+    },
+    {
+        "merged": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/res/merged/debug/layout/activity_notifications.xml",
+        "source": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/res/layout/activity_notifications.xml"
+    },
+    {
+        "merged": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/res/merged/debug/layout/activity_scrapbook.xml",
+        "source": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/res/layout/activity_scrapbook.xml"
+    },
+    {
+        "merged": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/res/merged/debug/layout/activity_listview.xml",
+        "source": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/res/layout/activity_listview.xml"
+    },
+    {
+        "merged": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/res/merged/debug/layout/activity_large_text_view.xml",
+        "source": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/res/layout/activity_large_text_view.xml"
+    },
+    {
+        "merged": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/res/merged/debug/layout/activity_viewmessage.xml",
+        "source": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/res/layout/activity_viewmessage.xml"
+    },
+    {
+        "merged": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/res/merged/debug/layout/view_wish.xml",
+        "source": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/res/layout/view_wish.xml"
+    },
+    {
+        "merged": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/res/merged/debug/layout/activity_action_bar.xml",
+        "source": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/res/layout/activity_action_bar.xml"
+    },
+    {
+        "merged": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/res/merged/debug/layout/activity_abstract_music_player.xml",
+        "source": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/res/layout/activity_abstract_music_player.xml"
+    },
+    {
+        "merged": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/res/merged/debug/layout/activity_drawing.xml",
+        "source": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/res/layout/activity_drawing.xml"
+    },
+    {
+        "merged": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/res/merged/debug/layout/activity_twitteraccountdisplay.xml",
+        "source": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/res/layout/activity_twitteraccountdisplay.xml"
+    },
+    {
+        "merged": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/res/merged/debug/layout/activity_music_player.xml",
+        "source": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/res/layout/activity_music_player.xml"
+    },
+    {
+        "merged": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/res/merged/debug/layout/activity_layouts_linear_vertical.xml",
+        "source": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/res/layout/activity_layouts_linear_vertical.xml"
+    },
+    {
+        "merged": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/res/merged/debug/layout/activity_incoming_sms_logger.xml",
+        "source": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/res/layout/activity_incoming_sms_logger.xml"
+    },
+    {
+        "merged": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/res/merged/debug/layout/activity_contact_list_view.xml",
+        "source": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/res/layout/activity_contact_list_view.xml"
+    },
+    {
+        "merged": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/res/merged/debug/layout/activity_country_detail.xml",
+        "source": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/res/layout/activity_country_detail.xml"
+    },
+    {
+        "merged": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/res/merged/debug/layout/activity_calculator.xml",
+        "source": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/res/layout/activity_calculator.xml"
+    },
+    {
+        "merged": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/res/merged/debug/layout/activity_timer.xml",
+        "source": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/res/layout/activity_timer.xml"
+    },
+    {
+        "merged": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/res/merged/debug/layout/activity_network.xml",
+        "source": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/res/layout/activity_network.xml"
+    },
+    {
+        "merged": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/res/merged/debug/layout/activity_sticky_broadcast.xml",
+        "source": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/res/layout/activity_sticky_broadcast.xml"
+    },
+    {
+        "merged": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/res/merged/debug/layout/activity_kitchen_sink.xml",
+        "source": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/res/layout/activity_kitchen_sink.xml"
+    },
+    {
+        "merged": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/res/merged/debug/layout/activity_contact_grid_view.xml",
+        "source": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/res/layout/activity_contact_grid_view.xml"
+    },
+    {
+        "merged": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/res/merged/debug/layout/activity_download.xml",
+        "source": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/res/layout/activity_download.xml"
+    },
+    {
+        "merged": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/res/merged/debug/layout/fragment_article.xml",
+        "source": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/res/layout/fragment_article.xml"
+    },
+    {
+        "merged": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/res/merged/debug/layout/activity_multidevice.xml",
+        "source": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/res/layout/activity_multidevice.xml"
+    },
+    {
+        "merged": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/res/merged/debug/layout/activity_layouts_relative.xml",
+        "source": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/res/layout/activity_layouts_relative.xml"
+    },
+    {
+        "merged": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/res/merged/debug/layout/activity_news_list.xml",
+        "source": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/res/layout/activity_news_list.xml"
+    },
+    {
+        "merged": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/res/merged/debug/layout/activity_calculator_aidl_service.xml",
+        "source": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/res/layout/activity_calculator_aidl_service.xml"
+    },
+    {
+        "merged": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/res/merged/debug/layout/fragment_country_detail.xml",
+        "source": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/res/layout/fragment_country_detail.xml"
+    },
+    {
+        "merged": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/res/merged/debug/layout/activity_location_listener.xml",
+        "source": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/res/layout/activity_location_listener.xml"
+    },
+    {
+        "merged": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/res/merged/debug/layout/view_contact.xml",
+        "source": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/res/layout/view_contact.xml"
+    },
+    {
+        "merged": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/res/merged/debug/layout/activity_adc.xml",
+        "source": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/res/layout/activity_adc.xml"
+    },
+    {
+        "merged": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/res/merged/debug/layout/view_newsitem.xml",
+        "source": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/res/layout/view_newsitem.xml"
+    },
+    {
+        "merged": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/res/merged/debug/layout/activity_view_pager.xml",
+        "source": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/res/layout/activity_view_pager.xml"
+    },
+    {
+        "merged": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/res/merged/debug/layout/activity_messenger.xml",
+        "source": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/res/layout/activity_messenger.xml"
+    },
+    {
+        "merged": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/res/merged/debug/layout/activity_bound_music_player.xml",
+        "source": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/res/layout/activity_bound_music_player.xml"
+    },
+    {
+        "merged": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/res/merged/debug/layout/activity_composemessage.xml",
+        "source": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/res/layout/activity_composemessage.xml"
+    },
+    {
+        "merged": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/res/merged/debug/layout/activity_wishlist.xml",
+        "source": "/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/src/main/res/layout/activity_wishlist.xml"
+    }
+]

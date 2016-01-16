@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/libs/httpclient-4.2.5.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="666e26e76f2e87d84e4f16acb546481ae1b8e9a6">
+        <dex dex="/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/pre-dexed/debug/httpclient-4.2.5_b381498e7f731aa65760a880636b153767546588.jar" />
+    </item>
+    <item
+        jar="/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/libs/slf4j-log4j12-1.5.8.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="da00a151c4db31b5be23e5f2b9f528735fddc384">
+        <dex dex="/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/pre-dexed/debug/slf4j-log4j12-1.5.8_0b21faec00bbc7451553b652cc495851005f856e.jar" />
+    </item>
+    <item
+        jar="/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/libs/jdom-2.0.5.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2001db51c131e555bafdb77fc52af6a9408c505e">
+        <dex dex="/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/pre-dexed/debug/jdom-2.0.5_3ccaa301bffa450e1cc182b4b20c14bdcb474493.jar" />
+    </item>
+    <item
+        jar="/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/libs/log4j-1.2.14.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="03b254c872b95141751f414e353a25c2ac261b51">
+        <dex dex="/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/pre-dexed/debug/log4j-1.2.14_ebf1ff6ddcfbed816d1bc59e9107df309be13d92.jar" />
+    </item>
+    <item
+        jar="/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/libs/commons-codec-1.6.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b7f0fc8f61ecadeb3695f0b9464755eee44374d4">
+        <dex dex="/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/pre-dexed/debug/commons-codec-1.6_0c096c25859f57474eb5b5bb7fcab8a303c01e55.jar" />
+    </item>
+    <item
+        jar="/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/libs/servlet-api-2.5.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5959582d97d8b61f4d154ca9e495aafd16726e34">
+        <dex dex="/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/pre-dexed/debug/servlet-api-2.5_7d042cf6edf634e4b8f2d6c5ee951bd8a8666484.jar" />
+    </item>
+    <item
+        jar="/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/libs/libthrift-0.9.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="03eded847a5c55de7092144c536d494c4319dcc1">
+        <dex dex="/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/pre-dexed/debug/libthrift-0.9.1_0501d08c222defa913aaeb31a7e749c419f5cd6c.jar" />
+    </item>
+    <item
+        jar="/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3_a401f4ca7f18e58e5ac0bbead5405977eb5d3594.jar" />
+    </item>
+    <item
+        jar="/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/libs/commons-lang3-3.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="905075e6c80f206bbe6cf1e809d2caa69f420c76">
+        <dex dex="/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/pre-dexed/debug/commons-lang3-3.1_fbb3a0749a9adc59e7b20bc807e11fe2f7b9ba3f.jar" />
+    </item>
+    <item
+        jar="/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/libs/ksoap2-android-assembly-3.4.0-jar-with-dependencies.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="45fbaab416fb5cff992e662d1f7a83786f084fc3">
+        <dex dex="/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/pre-dexed/debug/ksoap2-android-assembly-3.4.0-jar-with-dependencies_8c740725d7df77df8688622923d42274647d7a14.jar" />
+    </item>
+    <item
+        jar="/Users/dkolovos/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3_2f4b1226f8aa6ded9797e8f3378f89b6ba902cde.jar" />
+    </item>
+    <item
+        jar="/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/libs/junit-4.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8f35ee1f35d2dadbb5029991449ee90c1bab4d4a">
+        <dex dex="/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/pre-dexed/debug/junit-4.4_2c5a4aac903e3e2d80aad7061acae1e491af83c9.jar" />
+    </item>
+    <item
+        jar="/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-21.0.3_a530f6cf2a868148cba9179cd55af5f3581669a2.jar" />
+    </item>
+    <item
+        jar="/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/libs/slf4j-api-1.5.8.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2aaf496dfd551adb9b079f58a7e2d55eb383fc82">
+        <dex dex="/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/pre-dexed/debug/slf4j-api-1.5.8_ff9b0d9a25898647d2b23a0dc96d7a7386c2b8a5.jar" />
+    </item>
+    <item
+        jar="/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/libs/httpcore-4.2.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3b7f38df6de5dd8b500e602ae8c2dd5ee446f883">
+        <dex dex="/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/pre-dexed/debug/httpcore-4.2.4_75ff7d3f9ef78a61578179f7b79b8ff2186f0e1e.jar" />
+    </item>
+
+</items>
