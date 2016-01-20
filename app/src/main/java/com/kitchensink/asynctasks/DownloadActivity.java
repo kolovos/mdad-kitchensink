@@ -3,6 +3,7 @@ package com.kitchensink.asynctasks;
 import com.kitchensink.R;
 
 import android.app.Activity;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -34,6 +35,8 @@ public class DownloadActivity extends Activity {
 					}
 				});
 				downloadTask.execute("foo.pdf", "bar.zip", "foo.docx");
+
+				// downloadTask.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
 			}
 		});
 		

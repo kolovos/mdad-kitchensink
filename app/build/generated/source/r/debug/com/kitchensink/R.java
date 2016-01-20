@@ -192,8 +192,9 @@ public final class R {
         public static final int action_duplicate=0x7f090050;
         public static final int action_edit=0x7f090051;
         public static final int action_pause=0x7f09004a;
-        public static final int action_refresh=0x7f090053;
-        public static final int action_search=0x7f090055;
+        public static final int action_refresh=0x7f090054;
+        public static final int action_rename=0x7f090053;
+        public static final int action_search=0x7f090056;
         public static final int action_settings=0x7f09004f;
         public static final int action_shuffle=0x7f09004e;
         public static final int action_start=0x7f09004d;
@@ -201,7 +202,7 @@ public final class R {
         public static final int activityListView=0x7f090018;
         public static final int addButton=0x7f090007;
         public static final int addFruitButton=0x7f090021;
-        public static final int addSampleContact=0x7f090054;
+        public static final int addSampleContact=0x7f090055;
         public static final int addressTextView=0x7f090028;
         public static final int averageButton=0x7f090008;
         public static final int bestProviderLocationTextView=0x7f090026;

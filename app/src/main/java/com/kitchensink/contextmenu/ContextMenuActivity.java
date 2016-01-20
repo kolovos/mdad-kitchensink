@@ -54,7 +54,7 @@ public class ContextMenuActivity extends KitchenSinkActivity {
 		// Note: fruitListView.getSelectedItem() will return null here
 		AdapterContextMenuInfo info = (AdapterContextMenuInfo) item.getMenuInfo();
 		String selectedFruit = (String) fruitsListView.getItemAtPosition((int) info.position);
-		
+
 		toast(action + " " + selectedFruit);
 		return super.onContextItemSelected(item);
 	}

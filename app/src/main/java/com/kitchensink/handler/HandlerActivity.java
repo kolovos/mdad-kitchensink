@@ -12,7 +12,8 @@ import android.view.Menu;
 import android.view.View;
 import android.widget.TextView;
 
-public class HandlerActivity extends Activity {
+public class
+		HandlerActivity extends Activity {
 	
 	protected Handler handler;
 	protected TextView textView;

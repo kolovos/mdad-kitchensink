@@ -20,7 +20,9 @@ public class StartedMusicPlayerActivity extends AbstractMusicPlayerActivity {
 
 	@Override
 	public void stop() {
-		startService(createIntent("stop"));		
+		startService(createIntent("stop"));
+
+		// stopService(createIntent(""));
 	}
 
 	@Override
