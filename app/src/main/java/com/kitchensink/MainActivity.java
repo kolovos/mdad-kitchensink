@@ -44,6 +44,7 @@ import com.kitchensink.messenger.MessengerActivity;
 import com.kitchensink.mondial.CountriesActivity;
 import com.kitchensink.mondial.fragments.CountryListActivity;
 import com.kitchensink.multidevice.MultideviceActivity;
+import com.kitchensink.musicplayer.aidl.AidlMusicPlayerActivity;
 import com.kitchensink.musicplayer.started.StartedMusicPlayerActivity;
 import com.kitchensink.network.AdcActivity;
 import com.kitchensink.network.NetworkActivity;
@@ -110,7 +111,8 @@ public class MainActivity extends Activity {
 		ScaleDetectorActivity.class,
 		LightSensorActivity.class,
 		GesturesListActivity.class, 
-		KSOAP2Activity.class
+		KSOAP2Activity.class,
+		AidlMusicPlayerActivity.class
 	};
 	
 	protected Class<?> auto = null; //IncomingSmsLogger.class; //LightSensorActivity.class;// activities[activities.length-1];

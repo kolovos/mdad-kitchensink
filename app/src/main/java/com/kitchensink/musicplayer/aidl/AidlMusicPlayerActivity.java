@@ -24,7 +24,10 @@ public class AidlMusicPlayerActivity extends AbstractMusicPlayerActivity {
 			}
 			@Override
 			public void onServiceConnected(ComponentName name, IBinder binder) {
-				service = ((IAidlMusicPlayerService) binder);
+				// Only works for a local service
+				//service = ((IAidlMusicPlayerService) binder);
+				// Works both for a local and for a remote service
+				service = IAidlMusicPlayerService.Stub.asInterface(binder);
 			}
 		};
 		
