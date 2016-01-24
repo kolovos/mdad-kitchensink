@@ -12,26 +12,26 @@ public class ScrapbookInPreferencesActivity extends Activity {
 
 	protected EditText scrapbookEditText;
 	protected String scrapbookFilename = "scrapbook.txt";
-	
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_scrapbook);
-		
+
 		scrapbookEditText = (EditText) findViewById(R.id.scrapbookEditText);
-		
+
 		SharedPreferences preferences = getPreferences(Context.MODE_PRIVATE);
 		String scrapbookText = preferences.getString("scrapbook", "");
 		scrapbookEditText.setText(scrapbookText);
 	}
-	
+
 	@Override
-	protected void onPause() {
-		super.onPause();
+	protected void onSaveInstanceState(Bundle outState) {
+		super.onSaveInstanceState(outState);
 		SharedPreferences preferences = getPreferences(Context.MODE_PRIVATE);
 		SharedPreferences.Editor editor = preferences.edit();
 		editor.putString("scrapbook", scrapbookEditText.getText().toString());
 		editor.commit();
 	}
-	
+
 }
