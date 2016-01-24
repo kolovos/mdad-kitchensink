@@ -61,6 +61,9 @@ import com.kitchensink.viewpager.ViewPagerActivity;
 import com.kitchensink.webview.WebViewActivity;
 import com.kitchensink.wishlist.WishlistActivity;
 
+import java.util.Arrays;
+import java.util.Comparator;
+
 public class MainActivity extends Activity {
 	
 	protected ListView activityListView;
@@ -123,7 +126,14 @@ public class MainActivity extends Activity {
 		
 		setContentView(R.layout.activity_kitchen_sink);
 		activityListView = (ListView) findViewById(R.id.activityListView);
-		
+
+		Arrays.sort(activities, new Comparator<Class<?>>() {
+			@Override
+			public int compare(Class<?> lhs, Class<?> rhs) {
+				return lhs.getSimpleName().compareTo(rhs.getSimpleName());
+			}
+		});
+
 		activityListView.setAdapter(new ArrayAdapter<Class<?>>(this, android.R.layout.simple_list_item_1, activities) {
 			
 			@Override
