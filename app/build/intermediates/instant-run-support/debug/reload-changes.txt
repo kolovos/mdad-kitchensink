@@ -1,1 +1,0 @@
-/Users/dkolovos/AndroidStudioProjects/KitchenSink/app/build/intermediates/transforms/instantRun/debug/folders/4000/1/enhanced/com/android/build/gradle/internal/incremental/AppPatchesLoaderImpl.class
