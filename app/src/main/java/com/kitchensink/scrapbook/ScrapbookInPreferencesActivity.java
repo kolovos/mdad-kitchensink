@@ -26,8 +26,8 @@ public class ScrapbookInPreferencesActivity extends Activity {
 	}
 
 	@Override
-	protected void onSaveInstanceState(Bundle outState) {
-		super.onSaveInstanceState(outState);
+	protected void onPause() {
+		super.onPause();
 		SharedPreferences preferences = getPreferences(Context.MODE_PRIVATE);
 		SharedPreferences.Editor editor = preferences.edit();
 		editor.putString("scrapbook", scrapbookEditText.getText().toString());

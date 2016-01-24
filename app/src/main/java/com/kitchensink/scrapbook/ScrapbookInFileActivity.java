@@ -32,10 +32,10 @@ public class ScrapbookInFileActivity extends KitchenSinkActivity {
 			}
 		}
 	}
-	
+
 	@Override
-	protected void onSaveInstanceState(Bundle outState) {
-		super.onSaveInstanceState(outState);
+	protected void onPause() {
+		super.onPause();
 		try {
 			FileOutputStream fos =
 					openFileOutput(scrapbookFilename, MODE_PRIVATE);
@@ -46,6 +46,5 @@ public class ScrapbookInFileActivity extends KitchenSinkActivity {
 			toast("Could not write to file");
 		}
 	}
-
 	
 }
