@@ -6,13 +6,14 @@ import com.kitchensink.mondial.CountriesLoader;
 import com.kitchensink.mondial.Country;
 
 import android.app.Activity;
+import android.app.ListFragment;
+import android.content.Loader;
 import android.os.Bundle;
-import android.support.v4.app.ListFragment;
-import android.support.v4.app.LoaderManager.LoaderCallbacks;
-import android.support.v4.content.Loader;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.app.LoaderManager;
+
 
 public class CountryListFragment extends ListFragment {
 	
@@ -24,7 +25,7 @@ public class CountryListFragment extends ListFragment {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		
-		getLoaderManager().initLoader(0, null, new LoaderCallbacks<List<Country>>() {
+		getLoaderManager().initLoader(0, null, new LoaderManager.LoaderCallbacks<List<Country>>() {
 
 			@Override
 			public Loader<List<Country>> onCreateLoader(int id, Bundle args) {

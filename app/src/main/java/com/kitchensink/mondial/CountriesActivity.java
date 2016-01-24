@@ -30,7 +30,7 @@ public class CountriesActivity extends KitchenSinkActivity {
 	
 			@Override
 			public Loader<List<Country>> onCreateLoader(int id, Bundle args) {
-				return new CountriesThriftLoader(CountriesActivity.this);
+				return new CountriesLoader(CountriesActivity.this);
 			}
 	
 			@Override

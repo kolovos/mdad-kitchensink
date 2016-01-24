@@ -22,11 +22,6 @@ public class CountryLoader extends AsyncTaskLoader<Country> {
 	}
 
 	@Override
-	protected void onStartLoading() {
-		forceLoad();
-	}
-	
-	@Override
 	public Country loadInBackground() {
 		try {
 			SAXBuilder builder = new SAXBuilder();			
