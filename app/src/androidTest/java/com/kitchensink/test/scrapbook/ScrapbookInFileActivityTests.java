@@ -16,28 +16,33 @@ public class ScrapbookInFileActivityTests extends ActivityInstrumentationTestCas
 		super(ScrapbookInFileActivity.class);
 	}
 	
-public void testPauseState() {
-	
-	final String text = StringUtils.getRandomString(10);
-	// Spawn the activity
-	ScrapbookInFileActivity activity = getActivity();
-	editText = (EditText) activity.findViewById(R.id.scrapbookEditText);
-	// Set the value of the edit text to something random
-	activity.runOnUiThread(new Runnable() {
-		@Override
-		public void run() {
-			editText.setText(text);
-		}
-	});
+	public void testPauseState() throws Exception {
 
-	// Destroy the activity
-	activity.finish();
-	// Re-spawn the activity
-	activity = getActivity();
-	// Ensure that the text is still there
-	editText = (EditText) activity.findViewById(R.id.scrapbookEditText);
-	assertEquals(text, editText.getText().toString());
-}
+		final String text = StringUtils.getRandomString(10);
+		// Spawn the activity
+		ScrapbookInFileActivity activity = getActivity();
+		editText = (EditText) activity.findViewById(R.id.scrapbookEditText);
+		// Set the value of the edit text to something random
+		activity.runOnUiThread(new Runnable() {
+			@Override
+			public void run() {
+				editText.setText(text);
+			}
+		});
+		getInstrumentation().waitForIdleSync();
+
+		// Destroy the activity
+		activity.finish();
+		setActivity(null);
+
+		// Re-spawn the activity
+		activity = getActivity();
+
+		// Ensure that the text is still there
+		editText = (EditText) activity.findViewById(R.id.scrapbookEditText);
+
+		assertEquals(text, editText.getText().toString());
+	}
 	
 	
 }
