@@ -23,7 +23,8 @@ import static android.support.test.espresso.matcher.ViewMatchers.withText;
 public class EspressoCalculatorActivityTests {
 
     @Rule
-    public ActivityTestRule<CalculatorActivity> rule = new ActivityTestRule<CalculatorActivity>(CalculatorActivity.class);
+    public ActivityTestRule<CalculatorActivity> rule =
+            new ActivityTestRule<CalculatorActivity>(CalculatorActivity.class);
 
     @Test
     public void testEqualsButton() {

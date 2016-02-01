@@ -25,6 +25,13 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+        <receiver android:name=".broadcastreceivers.IncomingSmsLogger" >
+            <intent-filter>
+                <action
+                    android:name="android.provider.Telephony.SMS_RECEIVED" >
+                </action>
+            </intent-filter>
+        </receiver>
         <activity
             android:name=".intents.ViewMessageActivity"
             android:label="@string/app_name" >
