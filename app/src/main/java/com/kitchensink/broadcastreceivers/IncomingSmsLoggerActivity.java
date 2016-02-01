@@ -10,7 +10,9 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.os.Handler;
 import android.view.Menu;
+import android.widget.TextView;
 
 public class IncomingSmsLoggerActivity extends Activity {
 
@@ -20,11 +22,10 @@ public class IncomingSmsLoggerActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_incoming_sms_logger);
-		
-		logger = new IncomingSmsLogger();
+
 		// Register the receiver
-		registerReceiver(logger, 
-			new IntentFilter("android.provider.Telephony.SMS_RECEIVED"));
+		registerReceiver(new LocalSmsLogger(new Handler()),
+				new IntentFilter("android.provider.Telephony.SMS_RECEIVED"));
 	}
 
 	@Override
@@ -37,6 +38,26 @@ public class IncomingSmsLoggerActivity extends Activity {
 	public boolean onCreateOptionsMenu(Menu menu) {
 		getMenuInflater().inflate(R.menu.incoming_sms_logger_registration, menu);
 		return true;
+	}
+
+	class LocalSmsLogger extends BroadcastReceiver {
+
+		Handler handler = null;
+
+		public LocalSmsLogger(Handler handler) {
+			this.handler = handler;
+		}
+
+		@Override
+		public void onReceive(Context context, Intent intent) {
+			handler.post(new Runnable() {
+				@Override
+				public void run() {
+					TextView v = (TextView) IncomingSmsLoggerActivity.this.findViewById(R.id.smsNumberTextView);
+					v.setText("Message received!");
+				}
+			});
+		}
 	}
 
 }
