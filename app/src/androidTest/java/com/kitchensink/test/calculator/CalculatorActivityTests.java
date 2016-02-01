@@ -16,13 +16,12 @@ public class CalculatorActivityTests extends ActivityInstrumentationTestCase2<Ca
 
 	@UiThreadTest
 	public void testEqualsButton2() {
-		
 		CalculatorActivity activity = getActivity();
 		activity.findEditTextById(R.id.firstNumberEditText).setText("10");
 		activity.findEditTextById(R.id.secondNumberEditText).setText("5");
 		activity.findButtonById(R.id.equalsButton).performClick();
 		assertEquals(activity.findEditTextById(R.id.resultEditText).getText().toString(), "15");
-		
+
 	}
 
 	public void testEqualsButton() throws Throwable {
