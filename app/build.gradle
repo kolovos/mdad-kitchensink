@@ -20,6 +20,10 @@ android {
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
 
+    lintOptions {
+        checkReleaseBuilds false
+    }
+
     buildTypes {
         release {
             minifyEnabled false
