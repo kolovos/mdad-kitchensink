@@ -1,7 +1,5 @@
 package com.kitchensink.test.scrapbook;
 
-import org.junit.Test;
-
 import android.test.ActivityInstrumentationTestCase2;
 import android.view.KeyEvent;
 import android.widget.EditText;
@@ -11,7 +9,7 @@ import com.kitchensink.scrapbook.ScrapbookInFileActivity;
 import com.kitchensink.test.StringUtils;
 
 public class ScrapbookInFileActivityTests extends ActivityInstrumentationTestCase2<ScrapbookInFileActivity> {
-	
+
 	protected EditText editText = null;
 	
 	public ScrapbookInFileActivityTests() {
@@ -31,11 +29,9 @@ public void testPauseState() {
 			editText.setText(text);
 		}
 	});
-	// Wait for the UI to become idle again
-	getInstrumentation().waitForIdleSync();
-	// Hit the main button
-	sendKeys(KeyEvent.KEYCODE_DPAD_CENTER);
-	setActivity(null);
+
+	// Destroy the activity
+	activity.finish();
 	// Re-spawn the activity
 	activity = getActivity();
 	// Ensure that the text is still there

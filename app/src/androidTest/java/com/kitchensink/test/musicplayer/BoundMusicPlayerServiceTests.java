@@ -1,7 +1,5 @@
 package com.kitchensink.test.musicplayer;
 
-import org.junit.Test;
-
 import android.content.Intent;
 import android.test.MoreAsserts;
 import android.test.ServiceTestCase;
@@ -15,13 +13,7 @@ public class BoundMusicPlayerServiceTests extends ServiceTestCase<BoundMusicPlay
 	public BoundMusicPlayerServiceTests() {
 		super(BoundMusicPlayerService.class);
 	}
-	
-	@Override
-	protected void setUp() throws Exception {
 
-	}
-	
-	@Test
 	public void testCurrentPosition() {
 		Intent intent = new Intent(); // No need to specify the target service
 		LocalBinder binder = (LocalBinder) bindService(intent);
@@ -35,10 +27,5 @@ public class BoundMusicPlayerServiceTests extends ServiceTestCase<BoundMusicPlay
 		// Shut down the service
 		shutdownService();
 	}
-	
-	@Override
-	protected void tearDown() throws Exception {
 
-	}
-	
 }

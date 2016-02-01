@@ -3,7 +3,6 @@ package com.kitchensink;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v4.view.ViewPager;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
@@ -57,6 +56,8 @@ import com.kitchensink.sensors.LightSensorActivity;
 import com.kitchensink.sensors.SensorsActivity;
 import com.kitchensink.services.StopwatchActivity;
 import com.kitchensink.services.TimerActivity;
+import com.kitchensink.services.TimerTask;
+import com.kitchensink.timertask.TimerTaskActivity;
 import com.kitchensink.viewpager.ViewPagerActivity;
 import com.kitchensink.webview.WebViewActivity;
 import com.kitchensink.wishlist.WishlistActivity;
@@ -78,6 +79,7 @@ public class MainActivity extends Activity {
 		ContactsActivity.class,
 		BookmarksActivity.class,
 		TimerActivity.class,
+		TimerTaskActivity.class,
 		NewsListActivity.class,
 		StopwatchActivity.class,
 		MultilingualActivity.class,
@@ -118,7 +120,7 @@ public class MainActivity extends Activity {
 		AidlMusicPlayerActivity.class
 	};
 	
-	protected Class<?> auto = null; //IncomingSmsLogger.class; //LightSensorActivity.class;// activities[activities.length-1];
+	protected Class<?> auto = null;//WishlistActivity.class; //IncomingSmsLogger.class; //LightSensorActivity.class;// activities[activities.length-1];
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {

@@ -2,10 +2,9 @@ package com.kitchensink.test.intents;
 
 import com.kitchensink.intents.ComposeMessageActivity;
 import com.robotium.solo.Solo;
-
 import android.test.ActivityInstrumentationTestCase2;
 
-public class ComposeMessageActivityTests extends 
+public class ComposeMessageActivityTests extends
 	ActivityInstrumentationTestCase2<ComposeMessageActivity>{
 	
 	protected Solo solo;

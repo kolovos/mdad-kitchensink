@@ -50,7 +50,11 @@ public class TimerTaskActivity extends KitchenSinkActivity {
 	@Override
 	protected void onDestroy() {
 		super.onDestroy();
-		timer.cancel();
+		//timer.cancel();
 	}
 
+	@Override
+	protected void onSaveInstanceState(Bundle outState) {
+		super.onSaveInstanceState(outState);
+	}
 }

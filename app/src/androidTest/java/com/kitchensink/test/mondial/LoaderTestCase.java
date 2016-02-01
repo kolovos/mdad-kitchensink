@@ -1,12 +1,11 @@
 package com.kitchensink.test.mondial;
 import java.util.concurrent.ArrayBlockingQueue;
 
+import android.content.Loader;
 import android.os.AsyncTask;
 import android.os.Handler;
 import android.os.Looper;
 import android.os.Message;
-import android.support.v4.content.Loader;
-import android.support.v4.content.Loader.OnLoadCompleteListener;
 import android.test.AndroidTestCase;
 
 /**
@@ -42,7 +41,7 @@ public class LoaderTestCase extends AndroidTestCase {
 
         // This callback runs on the "main" thread and unblocks the test thread
         // when it puts the result into the blocking queue
-        final OnLoadCompleteListener<T> listener = new OnLoadCompleteListener<T>() {
+        final Loader.OnLoadCompleteListener<T> listener = new Loader.OnLoadCompleteListener<T>() {
             @Override
             public void onLoadComplete(Loader<T> completedLoader, T data) {
                 // Shut the loader down
