@@ -22,14 +22,19 @@ public class CountryLoader extends AsyncTaskLoader<Country> {
 	}
 
 	@Override
+	protected void onStartLoading() {
+		forceLoad();
+	}
+
+	@Override
 	public Country loadInBackground() {
 		try {
-			SAXBuilder builder = new SAXBuilder();			
+			SAXBuilder builder = new SAXBuilder();
 			// Build an XML document from the remote XML document
 			Document document = builder.build(
 					new URL("http://www-module.cs.york.ac.uk/soar/" + 
 							"public/mondial/country/" + countryId));
-			
+
 			Element element = document.getRootElement();
 			Country country = new Country();
 			country.setName(element.getAttributeValue("name"));
