@@ -14,8 +14,7 @@ import com.kitchensink.util.KitchenSinkActivity;
 public class GestureDetectorActivity extends KitchenSinkActivity {
 
 	protected GestureDetectorCompat gestureDetector;
-	protected ScaleGestureDetector scaleDetector;
-	
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -42,34 +41,11 @@ public class GestureDetectorActivity extends KitchenSinkActivity {
 			}
 			
 		});
-		
-		scaleDetector = new ScaleGestureDetector(this, new OnScaleGestureListener() {
-			
-			@Override
-			public void onScaleEnd(ScaleGestureDetector detector) {
-				toast("Scale end");
-			}
-			
-			@Override
-			public boolean onScaleBegin(ScaleGestureDetector detector) {
-				toast("Scale start");
-				return true;
-			}
-			
-			@Override
-			public boolean onScale(ScaleGestureDetector detector) {
-				toast("Scale");
-				return true;
-			}
-		});
-		
-		
 	}
 
 	@Override
 	public boolean onTouchEvent(MotionEvent event) {
-		boolean handled = scaleDetector.onTouchEvent(event);
-		if (!handled) handled = gestureDetector.onTouchEvent(event);
+		boolean handled = gestureDetector.onTouchEvent(event);
 		if (handled) return true;
 		else return super.onTouchEvent(event);
 	}
